@@ -1,6 +1,7 @@
 #include <iostream>
 
-using std::cout, std::endl;
+using std::cout; 
+using std::endl;
 using std::cin;
 
 int main () {
@@ -14,5 +15,7 @@ int main () {
   for(int i = 10; i < 10 + count; i++) {
     cout << i << endl;
   }
+
+  cout << "Thanks for using this program!" << endl;
 
 }
