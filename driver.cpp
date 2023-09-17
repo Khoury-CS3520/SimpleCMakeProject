@@ -11,7 +11,7 @@ int main () {
   int count;
   cin >> count;
 
-  for(int i = 0; i < count; i++) {
+  for(int i = 10; i < 10 + count; i++) {
     cout << i << endl;
   }
 
